@@ -23,14 +23,14 @@ body{
 
 .container{
     display: flex;
-    width: 500px;
-    border-radius: 5px;
+    max-width: 500px;
+    border-radius: 10px;
     background-color: var(--White);
 }
 
 .product-image, 
 .product-details {
-    width: 50%;
+    width: 450px;
 }
 
 .product-image {
@@ -40,13 +40,14 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 
 }
 
+.product-image, 
 .product-details {
-    padding: 15px;
+    padding: 15px 30px;
 }
 
 h2.category {
@@ -68,7 +69,7 @@ p.product-description {
 }
 
 .product-price {
-    padding: 5px 0;
+    padding: 3px 0;
 }
 
 p span.discounted-price {
