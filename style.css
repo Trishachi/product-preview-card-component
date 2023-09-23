@@ -34,7 +34,7 @@ body{
 }
 
 .product-image {
-    background-image: url("/product-preview-card-component-main/images/image-product-desktop.jpg");
+    background-image: url("/images/image-product-desktop.jpg");
     background-color: #ccc;
     height: auto;
     background-repeat: no-repeat;
@@ -44,10 +44,6 @@ body{
     border-top-left-radius: 5px;
 
 }
-
-
-
-
 
 .product-details {
     padding: 15px;
