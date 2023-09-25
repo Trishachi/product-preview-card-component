@@ -83,8 +83,6 @@ p span.original-price {
     text-decoration: line-through;
 }
 
-
-
 button.add-to-cart {
     background-color: var(--Dark-cyan);
     color: var(--White);
@@ -100,6 +98,29 @@ button.add-to-cart {
     padding: 0 5px;
 }
 
-
-
 /* Mobile View */
+@media only screen and (max-width: 500px){
+    body{
+        background-color: red;
+    }
+
+    .container{
+        display: block;
+        max-width: 80%;
+    }
+
+    .product-image, 
+    .product-details {
+    width: 80%;
+    }
+
+    .product-image {
+        background-image: url("/images/image-product-mobile.jpg");
+        height: 250px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-bottom-left-radius: 0;
+    }
+
+}
