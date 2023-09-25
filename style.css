@@ -34,7 +34,7 @@ body{
 }
 
 .product-image {
-    background-image: url("/images/image-product-desktop.jpg");
+    background-image: url("./images/image-product-desktop.jpg");
     background-color: #ccc;
     height: auto;
     background-repeat: no-repeat;
@@ -100,11 +100,7 @@ button.add-to-cart {
 
 /* Mobile View */
 @media only screen and (max-width: 500px){
-    body{
-        
-    }
-
-    .container{
+      .container{
         display: block;
         max-width: 80%;
     }
@@ -115,7 +111,7 @@ button.add-to-cart {
     }
 
     .product-image {
-        background-image: url("/images/image-product-mobile.jpg");
+        background-image: url("./images/image-product-mobile.jpg");
         height: 220px;
         width: auto;
         background-repeat: no-repeat;
