@@ -18,6 +18,7 @@ body{
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    color: var(--Dark-grayish-blue);
 
 }
 
@@ -61,11 +62,12 @@ h1.product-name {
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 25px;
+    color: var(--Very-dark-blue);
 }
 
 p.product-description {
     font-weight: 500;
-    
+    color: var(--Dark-grayish-blue);
 }
 
 .product-price {
